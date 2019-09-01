@@ -24,12 +24,12 @@ end
 end
 
  def update_counting_hash(hash, key)
-   fruits = {hash => key}
+   hashes = {hash => key}
    if 
-     fruits[]
-     fruits[] += 1 
+     hashes[]
+     hashes[] += 1 
    else 
-     fruits[] = 1
+     hashes[] = 1
    end
  end 
 
