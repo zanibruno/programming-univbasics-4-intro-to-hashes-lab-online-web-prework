@@ -27,10 +27,10 @@ end
  def update_counting_hash(hash, key)
    fruits = {:apples => 5, :oranges => 2 }
    if 
-     fruits[:apples]
-     fruits[:apples] += 1 
+     fruits[:banana]
+     fruits[:banana] += 1 
    else 
-     fruits[:apples] = 1
+     fruits[:banana] = 1
    end
  end 
 
