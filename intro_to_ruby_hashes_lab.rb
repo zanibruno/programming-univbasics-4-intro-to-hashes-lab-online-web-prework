@@ -24,12 +24,12 @@ end
 end
 
  def update_counting_hash(hash, key)
-   fruits = {:apples => 5, :oranges => 2 }
+   fruits = {hash => key}
    if 
-     fruits[:banana]
-     fruits[:banana] += 1 
+     fruits["keys"]
+     fruits["keys"] += 1 
    else 
-     fruits[:banana] = 1
+     fruits["keys"] = 1
    end
  end 
 
