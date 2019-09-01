@@ -26,7 +26,7 @@ end
  def update_counting_hash(hash, key)
    fruits = {hash => key}
    if 
-     fruits["keys"]
+     fruits[]
      fruits["keys"] += 1 
    else 
      fruits["keys"] = 1
