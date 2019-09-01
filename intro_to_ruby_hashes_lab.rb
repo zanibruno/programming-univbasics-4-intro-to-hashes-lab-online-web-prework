@@ -27,9 +27,9 @@ end
    fruits = {hash => key}
    if 
      fruits[]
-     fruits["keys"] += 1 
+     fruits[] += 1 
    else 
-     fruits["keys"] = 1
+     fruits[] = 1
    end
  end 
 
